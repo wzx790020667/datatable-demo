@@ -1,0 +1,18 @@
+.ttable {
+    display: inline-block;
+}
+
+.ttable .tr {
+    display: flex;
+    /* Use flexbox to ensure cells are displayed in a row */
+    flex-grow: 1;
+}
+
+.ttable .th,
+.ttable .td {
+    flex: 1;
+    /* Ensure cells stretch equally */
+    min-width: 150px;
+    width: auto;
+    /* flex-wrap: nowrap; */
+}

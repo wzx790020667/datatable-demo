@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "supabase:gen": "supabase gen types typescript --project-id kojqxigncmterziuxcgj > database.types.ts"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.1",
+    "@internationalized/date": "^3.5.4",
+    "@nextui-org/react": "^2.3.6",
+    "@supabase/ssr": "latest",
+    "@supabase/supabase-js": "latest",
+    "autoprefixer": "10.4.17",
+    "framer-motion": "^11.2.6",
+    "geist": "^1.2.1",
+    "lodash": "^4.17.21",
+    "next": "latest",
+    "postcss": "8.4.33",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-window": "^1.8.10",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.3.3",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.4",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "@types/react-virtualized": "^9.21.30",
+    "@types/react-virtualized-auto-sizer": "^1.0.4",
+    "@types/react-window": "^1.8.8",
+    "encoding": "^0.1.13"
+  }
+}

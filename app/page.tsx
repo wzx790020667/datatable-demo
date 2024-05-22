@@ -1,8 +1,9 @@
 import _ from "lodash";
 import DataTable from "./DataTable/DataTable";
-import { supabaseServer } from "@/utils/supabase/server";
+import { createClient } from "@/utils/supabase/server";
 
 export default async function Index() {
+  const supabaseServer = createClient()
 
   const { data: cities, error, count } = await supabaseServer.from('cities')
     .select('*', {count: 'exact'})

@@ -73,7 +73,6 @@ export default function Filters({
     const onRemoveSelector = (index: number) => {
         const newSelectors = [...selectors]
         newSelectors.splice(index, 1)
-        console.log(newSelectors)
 
         setSelectors(newSelectors)
     }
@@ -84,7 +83,6 @@ export default function Filters({
             rule: selector.selectedRule ?? '',
             value: selector.value ?? ''
         }))
-        console.log(selectedFilters)
         if (onFilterApplied) {
             onFilterApplied(selectedFilters)
         }

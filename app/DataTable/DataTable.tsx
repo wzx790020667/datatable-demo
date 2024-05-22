@@ -276,7 +276,6 @@ export default function DataTable({
     }
 
     const onTextSearchChange = (keywords: string) => {
-        console.log({ field: textSearchField, keywords: keywords })
         setTextSearchTerm({ field: textSearchField, keywords: keywords })
     }
 

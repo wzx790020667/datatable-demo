@@ -2,7 +2,7 @@
 
 Just clone the repo and run `npm run dev` to start it locally. I have included my dev credentials for the convenience of checking. (In a real project, these keys should be moved to CICD pipeline env instead of sitting in a repo.)
 
-# Completed requirements
+# Incompleted requirements
 Due to the time limit, and the urgency of the project commit. I have completed most of the features, however, two parts is not completed because of the following reasons:
 
 ### Dynamically adding columns (half-complete) 

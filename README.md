@@ -13,3 +13,5 @@ I expect this requirement to be completed as users can add columns dynamically b
 ### Image insertion of a cell
 Due to the time constraint, I was not able to complete this feature in time, and for now, I decided to commit to the project first, if there is any additional time that needs me to complete this feature as well, I'm available to continue and finish it also.
 
+### Another thing
+As I build this data table nearly from scratch, it took much time to complete. If it's built on top of `TanStack React Table` or just `MUI DataGrid`, this development process can be significantly faster.

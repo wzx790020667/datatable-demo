@@ -1,6 +1,8 @@
 # Get Started 
 
-Just clone the repo and run `npm run dev` to start it locally.
+* Clone the repo.
+* Add environment files
+* Run `npm run dev` to start it locally.
 
 # Incompleted requirements
 Due to the time limit, and the urgency of the project commit. I have completed most of the features, however, two parts is not completed because of the following reasons:
